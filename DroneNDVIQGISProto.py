@@ -24,9 +24,9 @@ ir.bandNumber = 1
 
 r.bandNumber = 3
 
-ir.ref = rasterName + "@1"
+ir.ref = raster.name() + "@1"
 
-r.ref = rasterName + "@3"
+r.ref = raster.name() + "@3"
 
 references = (ir.ref, r.ref, ir.ref, r.ref)
 
