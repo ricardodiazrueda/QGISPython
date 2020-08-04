@@ -30,7 +30,7 @@ r.ref = rasterName + "@3"
 
 references = (ir.ref, r.ref, ir.ref, r.ref)
 
-exp = "1.0 * (%s - %s) / 1.0 + (%s + %s)" % references
+exp = "1.0 * (%s - %s) / (%s + %s)" % references
 output = "/qgis_data/rasters/ndvi.tif"
 
 e = raster.extent()
